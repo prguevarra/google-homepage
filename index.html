@@ -8,47 +8,59 @@
     </head>
     <body>
         <div class="main>">
-          <nav>
-          <!-- here's the navigation bar for google links -->
-              <ul>
-                 <li><a href="https://www.google.com/intl/fil/gmail/about/">Gmail</a></li>
+          <nav class="nav">
+          <!-- navigation bar for google links -->
+              <div class="nav1">
+                <ul>
+                  <li><a href="https://www.google.com/intl/fil/gmail/about/">Gmail</a></li>
                   <li><a href="https://www.google.com.ph/imghp?hl=en&ogbl">Images</a></li>
-                  <li><img src=https://icon-library.com/images/google-apps-icon-png/google-apps-icon-png-27.jpg id="google-app-logo"></li>
-                 <li><button type="submit" id="sign-in">Sign In</button></li>
                 </ul>
+              </div> 
+              <div class="nav2">
+                <img src=https://icon-library.com/images/google-apps-icon-png/google-apps-icon-png-27.jpg id="google-app-logo">
+              </div>
+              <div class="nav3">
+                <button type="submit" id="sign-in">Sign In</button>
+              </div>
             </nav>
 
           <main>
-          <!-- here's the colorful google photo -->
+          <!-- colorful google photo -->
                <div class="google-logo">
                 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
               </div> 
-          <!-- here's the seachbar -->
-            <div id="search-bar">
+          <!-- seachbar items -->
+              <div class="border">
+                <div id="search-bar">
                     <img src="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-2.png" alt="" id="magnifying-glass">
-                    <input type="text" placeholder=""></form>
+                    <input type="text" placeholder="" class="textfield"></form>
                     <img src="https://web.archive.org/web/20191130234759im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" alt="" id="mic">
-            </div>
-         <!-- here's the feeling lucky button -->
+                </div>
+              </div> 
+         <!-- feeling lucky button -->
             <div class="search-button">
                  <ul>
-                   <button type="submit" class="search-buttons">Google Search</button>
-                   <button type="submit" class="search-buttons">I'm Feeling Lucky</button>
+                   <button type="submit" class="searchbutton 1">Google Search</button>
+                   <button type="submit" class="searchbutton 2">I'm Feeling Lucky</button>
                 </ul>
             </div>
-          <!-- here's the translation page -->
+          <!-- translation section -->
               <div class="cebuano">
-                   Google offered in: Filipino Cebuano
-              </div>
+                  <ul>
+                    <li>Google offered in: </li>
+                    <li><a href="https://www.google.com/setprefs?sig=0_9AZn_OuISc09ugNyQp3D6fsghug%3D&hl=fil&source=homepage&sa=X&ved=0ahUKEwjG7MTap-HtAhXAyYsBHVxCCtMQ2ZgBCA0" class="dialect">Filipino</a></li>   
+                    <li><a href="https://www.google.com/setprefs?sig=0_9AZn_OuISc09ugNyQp3D6fsghug%3D&hl=ceb&source=homepage&sa=X&ved=0ahUKEwjh_af5p-HtAhUrSPUHHYp1AEYQ2ZgBCA4" class="dialect">Cebuano</a></li>
+                  </ul>
+                </div>
           </main>
 
          <div class="Philippines">
-         <!-- start of the footer navigation section -->
+         <!-- footer country section -->
              <li class="country">Philippines</li>
          </div>
 
          <footer>
-             <!-- start of the footer navigation section -->
+             <!-- footer navigation section -->
              <div id="footer">
              
                  <div class="right">
@@ -66,10 +78,8 @@
                         <li><a class= "hand settings" href="">Settings</a></li>
                     </ul>
                 </div>
-        
              </div>
          </footer>
-         
         </div>
     </body>
 </html>
