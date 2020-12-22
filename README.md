@@ -1,5 +1,8 @@
 **google-homepage**
-*Replica of the most famous search engine.*
+>*Replica of the most famous search engine.*
+
+**live view**
+> https://prguevarra.github.io/google-homepage
 
 **main-objective**
 > Mimic google homepage interface as part of the learning activity using HTML and CSS from The Odin Project.
@@ -12,4 +15,4 @@
 5. Handling of developer tools for mozilla and chrome.
 
 **credits**
-> Learning materials and project activity from The Odin Project (https://theodinproject.com/courses/foundations/lessons/html-css)
+> Learning materials and project activity from [The Odin Project] (https://theodinproject.com/courses/foundations/lessons/html-css)
