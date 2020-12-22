@@ -1,3 +1,136 @@
+.main{
+    display: flex;
+    position: relative;
+    width: 100vh;
+    height: 100vh;
+    border: 1px solid rgb(234, 0, 255));
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid red;
+    padding: 15px;
+    font-size: 13px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    padding: 12px 12px 12px 12px;
+}
+
+#google-app-logo {
+    height: 22px;
+    width: 22px;
+}
+#magnifying-glass {
+    height: 22px;
+    width: 22px;
+}
+#mic {
+    height: 22px;
+    width: 22px;
+}
+
+.google-logo {
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+#search-bar {
+    display: flex;
+    border: 1px solid green;
+    justify-content: center;
+    padding: 0px;
+    float: both;
+}
+
+.search-button {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border: 1px solid yellow; 
+}
+
+.search-buttons {
+    background-color: #f8f9fa;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    line-height: 27px;
+}
+
+.cebuano {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid blueviolet;
+    padding: 0px;
+    height: 20px;
+    font-size: 12px;
+    font-family: arial, sans-serif;
+    color: #222;
+   
+}
+
+/*flex container*/
+.Philippines {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    font-size: 15px;
+    color:#70757a;
+    bottom: 29px;
+    background-color: #f2f2f2;
+    border-bottom: 16px solid #e4e4e4;
+    font-family: arial, sans-serif;
+}
+
+/*flex item*/
+.country { 
+    display: flex;
+    padding: 15px 30px;
+}
+
+#footer {
+    display: flex;
+    position: absolute;
+    color:#70757a;
+    width: 100%;
+    bottom: 0px;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    font-family: arial, sans-serif;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    padding: 15px;
+}
+
+.right a{
+    text-decoration: none;
+    color:#70757a;
+}
+
+.left {
+    display: flex;
+    padding: 15px;
+}
+.left a{
+    text-decoration: none;
+    color:#70757a;
+}
+
+/*
 ul {
     list-style-type: none;
     margin: 0;
@@ -90,28 +223,36 @@ main {
 
 .Philippines {
     list-style-type: none;
+    justify-content: left;
     display: flex;
     position: absolute;
     font-size: 15px;
     color:#70757a;
     bottom: 38px;
-    padding: 15px 30px;
+    padding: 15px 730px;
     background-color: #dadce0;
     border-bottom: 1px solid #dadce0;
     font-family: arial, sans-serif;
 }
+
+.country {
+    display: flex;
+    justify-content: flex-start;
+}
+
 
 footer {
     display: flex;
     position: absolute;
     bottom: 0px;
     font-size: 14px;
-    background-color: #dadce0;
+    background-color:rgb(218, 220, 224);
     max-width: fit-content;
     font-family: arial, sans-serif;
 }
 
 .foot {
     color:#70757a;
-    padding: 15px 30px;
+    padding: 15px 80px;
 }
+*/
